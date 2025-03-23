@@ -1,3 +1,5 @@
+$${\color{red}This \space repository \space will \space not \space be \space maintained. \space It's \space just \space a \space quick \space sample.}$$
+
 # mpc-csharp-semantickernel
 An example usage of Microsoft Semantic Kernel with OpenAI and the The official C# SDK for the Model Context Protocol which can be found at https://github.com/modelcontextprotocol/csharp-sdk
 
