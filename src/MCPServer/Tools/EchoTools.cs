@@ -7,7 +7,7 @@ namespace TestServerWithHosting.Tools;
 public static class EchoTool
 {
     [McpTool, Description("Echoes the input back to the client.")]
-    public static string Echo(string message)
+    public static string Echo([Description("Message for the email")]string message)
     {
         return "hello " + message;
     }

@@ -10,10 +10,10 @@ namespace MCPServer.Tools
     public static class EmailTool
     {
         private static readonly Dictionary<string, string> emails = new Dictionary<string, string>
-            {
-                { "example", "mail@example.com" },
-                { "aFriend", "friendEmail@gmail.com" }
-            };
+        {
+            { "example", "mail@example.com" },
+            { "aFriend", "friendEmail@gmail.com" }
+        };
 
 
         [McpTool, Description("Sends an Email to someone.")]
