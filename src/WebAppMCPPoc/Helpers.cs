@@ -113,7 +113,6 @@ namespace WebAppMCPPoc
                     parameters.Add(metadata);
                 }
             }
-            //foreach(var item in y.)
 
 
             return parameters;

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
@@ -13,9 +13,7 @@
   <ItemGroup>
     <PackageReference Include="MailKit" Version="4.11.0" />
     <PackageReference Include="mcpdotnet" Version="1.1.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0-preview.1.25120.3" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.0-preview.1.25080.5" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-preview.1.25080.5" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
     <PackageReference Include="MimeKit" Version="4.11.0" />
     <PackageReference Include="Serilog" Version="4.2.1-dev-02340" />
     <PackageReference Include="Serilog.Sinks.Console" Version="6.0.1-dev-00953" />
